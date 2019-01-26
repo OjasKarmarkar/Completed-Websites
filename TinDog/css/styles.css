@@ -1,0 +1,147 @@
+
+body {
+    font-family: 'Fira Sans', sans-serif;
+    text-align: center;
+  }
+  
+
+  h1, h2, h3, h4, h5, h6 {
+    font-family: 'Fira Sans', sans-serif;
+  }
+#head2{
+    font-family: 'Fira Sans', sans-serif;
+    font-size: 3rem;
+}
+  .navbar {
+    padding: 0 0 4.5rem;
+  }
+  
+  .navbar-brand {
+    font-family: 'Fira Sans', sans-serif;
+    font-size: 2.5rem;
+    font-weight: bold;
+  }
+  
+  .nav-item {
+    padding: 0 18px;
+  }
+  
+  .nav-link {
+    font-size: 1.2rem;
+    font-family: 'Fira Sans', sans-serif;
+  }
+  
+  /* Buttons */
+  
+  .download-button {
+    margin: 5% 3% 5% 0;
+  }
+  
+  /* Title Section */
+  
+  #title {
+    background-color: #ff4c68;
+    color: #fff;
+    text-align: left;
+  }
+  
+  #title .container-fluid {
+    padding: 3% 15% 7%;
+  }
+  
+  /* Title Image */
+  
+  .title-image {
+    width: 50%;
+    transform: rotate(25deg);
+    position:absolute;
+    margin: 10%;
+    right: 30%;
+  }
+
+
+  #features{
+      text-align: center;
+      padding: 7% 15%;
+      background-color: #fff;
+      position: relative;
+      
+      
+  }
+  .icon{
+      color: #ef8172;
+      padding: 5%;
+  }
+  
+.icon:hover{
+    color: #ff4c68;
+}
+
+#testimonials{
+
+text-align: center;
+color:#fff;
+background-color: #ef8172;
+}
+
+.testimonial-image{
+     width: 20%;
+    border-radius: 100%;
+    padding: 5%;
+}
+
+#press{
+    background-color: #ef8172;
+    text-align: center;
+}
+
+.press-logo{
+    margin: 20px;
+    width: 15%;
+    padding:  2%;
+}
+
+.carousel-item{
+    padding: 7% 15%;
+}
+
+#pricing{
+    padding: 7% 7%;
+}
+
+.pricing-column{
+    padding: 3% 2%;
+    text-align: center;
+}
+
+#cta{
+  padding: 7% 15%;
+  background-color: #ff4c68;
+  text-align: center;
+  color: #fff;
+}
+
+.play{
+  margin: 5%;
+}
+
+#footer{
+  text-align: center;
+  padding: 7% 15%;
+}
+
+.f-image{
+  margin: 10px;
+}
+
+@media (max-width:1028px){
+
+  #title{
+text-align: center;
+  }
+
+  .title-image{
+    position: static;
+    transform: rotate(0);
+  }
+}
